@@ -1,3 +1,8 @@
+Fork Note
+=========
+
+Changed i2c addresses within example as the delivered sensors had the addresses switched.
+
 Welcome To: Sparkys Widgets MinipH, eC and other Mini-board Driver library
 ================================
 
