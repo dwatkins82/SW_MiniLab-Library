@@ -20,8 +20,8 @@ on documentation or you can even donate some BitCoin to 1NwPNsf6t5vpph6AYY5bg361
 #include <MCP3221.h> //we get a executable and linking error (.elf) if we dont inlcude here as well hmmm
 
 
-uint8_t pHi2cAddress = 0x4D;		// MCP3221 A5 in Dec 77 A0 = 72 A7 = 79)
-uint8_t eCi2cAddress = 0x48;
+uint8_t pHi2cAddress = 0x48;		// MCP3221 A5 in Dec 77 A0 = 72 A7 = 79)
+uint8_t eCi2cAddress = 0x4D;
 //byte altI2CAddress = 0x0C	// A0 = x48, A1 = x49, A2 = x4A, A3 = x4B, 
 							// A4 = x4C, A5 = x4D, A6 = x4E, A7 = x4F
 //This is for our ADC testing variables in mV ie 4948mV or 4.948v
